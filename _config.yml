@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Long Live The Data
 email: mario4universe@gmail.com
-description: > 给我负熵，照亮黑箱。即便身处果核之中，却仍是宇宙的主人。
+description: > # 给我负熵，照亮黑箱。即便身处果核之中，却仍是宇宙的主人。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://example.com" # the base hostname & protocol for your site
 twitter_username: mario4universe
