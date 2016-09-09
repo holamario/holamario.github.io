@@ -1,0 +1,45 @@
+<head>
+    <script src="jquery-3.1.0.min.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="../jquery.fullPage.js"></script>
+    <link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
+
+    <style>
+        .section{
+            padding: 0 0 0 0;
+            background-position:center;
+		    background-size:contain;
+		    background-repeat:no-repeat;
+        }
+    </style>
+
+	<script>
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: false
+			});
+		});
+	</script>
+
+    <title>台湾经济新报实习项目报告</title>
+
+</head>
+
+<body>
+    <div id="fullpage">
+        <script>
+            for(i=1;i<=35;i++){
+                var id=""
+                if (i<=9){
+                    id='0'+i;
+                }
+                else{
+                    id=i
+                }
+                $("#fullpage").append('<div class="section" style="background-image:url(imgs/'+id+'.jpg);" />');
+            }
+        </script>
+    </div>
+</body>
